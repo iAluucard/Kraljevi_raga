@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url()
+}
+
+.section-for-video {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .video-background {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+
+    .logo_mk_kr{
+        opacity: 0.4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+.navbar-nav {
+    font-weight: 900;
+
+
+    li a {
+        color: aliceblue !important;
+        margin-right: 20px;
+    }
+
+    li a:hover {
+        color: darksalmon !important;
+        transition: 500ms;
+    }
+
+    li {
+        color: aliceblue !important;
+        margin-right: 20px;
+    }
+
+}
+
