@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url("../images/brick.jpg");
+  background: url("../images/bg1.jpg");
   background-size: 100%;
   font-family: 'Abril Fatface', cursive;
   min-height: 500px;
@@ -94,7 +94,6 @@ section h1 {
 }
 
 .first_section {
-  background-color: #2c2c2c;
   height: 20vh;
 }
 /*# sourceMappingURL=index.css.map */
