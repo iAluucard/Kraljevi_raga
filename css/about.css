@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: url("../images/bg1.jpg") 50% 0;
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: 'Abril Fatface', cursive;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav {
+  font-weight: 900;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.navbar-nav li a {
+  color: aliceblue !important;
+  margin-right: 20px;
+}
+
+.navbar-nav li a:hover {
+  color: darksalmon !important;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.navbar-nav li {
+  color: aliceblue !important;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=about.css.map */

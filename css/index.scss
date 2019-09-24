@@ -9,7 +9,7 @@ body{
     background-repeat: repeat;
     background-size: cover;
     font-family: 'Abril Fatface', cursive;
-    min-height: 500px;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,29 +68,72 @@ body{
 
 }
 
-.section_content1{
-    z-index: 2;
+.section_content1, .section_content2{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
-
+    min-height: 600px;
     h1{
-        color: rgb(255, 255, 255);
-        margin-top: 8rem;
-    }
-    
+        color: rgb(255, 255, 255) !important;
+        letter-spacing: 5px;
+    } 
+}
+
+.section_content1{
+    @extend .bg1;
+}
+
+.section_content2{
+    @extend .bg2;
+}
+
+.bg1{
+    filter: grayscale(100%);
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("http://www.hoffux.de/WebRoot/Store21/Shops/83089737/59E8/316F/7E27/94BC/2FF7/0A0C/6D06/B4FD/IMG_20180406_091554.jpg");
+}
+
+.bg2{
+    filter: grayscale(100%);
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://starodobnik.net/forum/uploads/monthly_2018_03/img005.jpg.cbdd7cee94684bf33f9bc4d6e310ff04.jpg");
+}
+
+#div_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    min-height: 200px;
+    margin-top: 2,5 rem;
+    padding-top: 2rem;
+    letter-spacing: 8px;
+    padding: 50px;
+
     p{
         margin-top: 1.5rem;
         color: rgb(255, 255, 255);
         font-size: 16px;
     }
-
-    #sece3nd_of_content{
-        margin-top: 2,5 rem;
-        padding-top: 2rem;
-    }
 }
 
-
+#caption_footer{
+    color: rgba(180, 180, 180, 0.692);
+    font-size: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
