@@ -94,6 +94,7 @@ body {
 .section_content1 h1, .section_content2 h1 {
   color: white !important;
   letter-spacing: 5px;
+  text-shadow: 10px 10px 10px #202020;
 }
 
 .bg1, .section_content1 {
@@ -105,7 +106,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("http://www.hoffux.de/WebRoot/Store21/Shops/83089737/59E8/316F/7E27/94BC/2FF7/0A0C/6D06/B4FD/IMG_20180406_091554.jpg");
+  background-image: url("/images/slika1.jpg");
 }
 
 .bg2, .section_content2 {
@@ -117,7 +118,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("https://starodobnik.net/forum/uploads/monthly_2018_03/img005.jpg.cbdd7cee94684bf33f9bc4d6e310ff04.jpg");
+  background-image: url("/images/slika4.jpg");
 }
 
 #div_content {
