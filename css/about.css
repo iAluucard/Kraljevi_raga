@@ -6,7 +6,6 @@
 body {
   margin: 0;
   background: url("../images/bg1.jpg") 50% 0;
-  background-repeat: repeat;
   background-size: cover;
   font-family: 'Abril Fatface', cursive;
   height: 100%;
@@ -34,5 +33,17 @@ body {
 .navbar-nav li {
   color: aliceblue !important;
   margin-right: 20px;
+}
+
+#caption_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=about.css.map */
