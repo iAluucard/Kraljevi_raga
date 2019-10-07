@@ -65,7 +65,7 @@ body {
 }
 
 .navbar-nav li a:hover {
-  color: darksalmon !important;
+  color: #638b49 !important;
   -webkit-transition: 500ms;
   transition: 500ms;
 }
