@@ -1,14 +1,30 @@
-/*$(document).ready(function(){
-    $(document).scroll(function () {
-    var scroll = $(window).scrollTop();
-    $("background-image").css("top", "0" + (scroll / 0.8) + "px");
-});});*/
+window.addEventListener("scroll", function () {
 
-//console.log(document.images);
+        var pikseli = this.window.pageYOffset.valueOf();
+        var opis = document.getElementById("opis");
+        var pkr = this.document.getElementById("pkr");
+        var tkr = this.document.getElementById("tkr");
+        var l_d = this.document.getElementById("logo_description");
 
-
-$(function () {
-    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-    });
-
+        if (pikseli >= 200) {
+                opis.style.opacity = "1";
+        } else {
+                opis.style.opacity = "0";
+        }
+        if (pikseli >= 500) {
+                pkr.style.opacity = "1";
+        } else {
+                pkr.style.opacity = "0";
+        }
+        if (pikseli >= 1000) {
+                tkr.style.opacity = "1";
+        } else {
+                tkr.style.opacity = "0";
+        }
+        if (pikseli >= 1600) {
+                l_d.style.opacity = "1";
+        } else {
+                l_d.style.opacity = "0";
+        }
+});
 

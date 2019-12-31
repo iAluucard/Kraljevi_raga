@@ -96,10 +96,13 @@ body {
 }
 
 .first_section #opis {
+  opacity: 0;
   color: #dadada;
   font-size: 20px;
   letter-spacing: 1px;
   text-align: center;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .second_section {
@@ -115,8 +118,14 @@ body {
   text-align: center;
 }
 
+.second_section #pkr {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .second_section p {
-  color: aliceblue;
+  color: #dadada;
   letter-spacing: 0.5px;
 }
 
@@ -145,8 +154,14 @@ body {
   letter-spacing: 0.5px;
 }
 
+.third_section #tkr {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .third_section h1 {
-  margin-top: 2%;
+  margin-top: 1%;
   color: #dadada;
   text-decoration: underline;
 }
@@ -164,6 +179,9 @@ body {
 }
 
 .fourth_section #logo_description {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
