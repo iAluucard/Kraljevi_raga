@@ -29,10 +29,10 @@ window.addEventListener("scroll", function () {
         }
         if (pikseli >= 1400) {
                 logo.style.opacity = "1";
-                logo.style.animationName = "logo_slide"
+                logo.style.animationName = "logo_slide";
         } else {
                 logo.style.opacity = "0";
-                logo.style.animationName = "logo_slide_back"
+                logo.style.animationName = "logo_slide_back";
         }
 });
 
