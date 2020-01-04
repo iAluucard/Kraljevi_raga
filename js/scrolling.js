@@ -5,13 +5,14 @@ window.addEventListener("scroll", function () {
         var pkr = this.document.getElementById("pkr");
         var tkr = this.document.getElementById("tkr");
         var l_d = this.document.getElementById("logo_description");
+        var logo = this.document.getElementById("logo");
 
-        if (pikseli >= 200) {
+        if (pikseli >= 300) {
                 opis.style.opacity = "1";
         } else {
                 opis.style.opacity = "0";
         }
-        if (pikseli >= 500) {
+        if (pikseli >= 600) {
                 pkr.style.opacity = "1";
         } else {
                 pkr.style.opacity = "0";
@@ -21,10 +22,18 @@ window.addEventListener("scroll", function () {
         } else {
                 tkr.style.opacity = "0";
         }
-        if (pikseli >= 1600) {
+        if (pikseli >= 1400) {
                 l_d.style.opacity = "1";
         } else {
                 l_d.style.opacity = "0";
         }
+        if (pikseli >= 1400) {
+                logo.style.opacity = "1";
+                logo.style.animationName = "logo_slide"
+        } else {
+                logo.style.opacity = "0";
+                logo.style.animationName = "logo_slide_back"
+        }
 });
+
 

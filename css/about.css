@@ -9,7 +9,7 @@ hr {
 
 #text {
   padding-top: 2%;
-  color: aliceblue;
+  color: #dadada;
   letter-spacing: 0.5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,7 +166,58 @@ body {
   text-decoration: underline;
 }
 
+@-webkit-keyframes logo_slide {
+  0% {
+    right: 200px;
+  }
+  50% {
+    right: 100px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes logo_slide {
+  0% {
+    right: 200px;
+  }
+  50% {
+    right: 100px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@-webkit-keyframes logo_slide_back {
+  0% {
+    right: 0px;
+  }
+  50% {
+    right: 100px;
+  }
+  100% {
+    right: 200px;
+  }
+}
+
+@keyframes logo_slide_back {
+  0% {
+    right: 0px;
+  }
+  50% {
+    right: 100px;
+  }
+  100% {
+    right: 200px;
+  }
+}
+
 .fourth_section #logo {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,6 +227,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  position: relative;
 }
 
 .fourth_section #logo_description {
@@ -190,5 +244,6 @@ body {
           justify-content: center;
   text-align: center;
   color: #dadada;
+  margin-top: 2%;
 }
 /*# sourceMappingURL=about.css.map */
