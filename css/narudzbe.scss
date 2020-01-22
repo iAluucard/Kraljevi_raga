@@ -43,11 +43,12 @@ body {
     }
 
 }
-
-
-#caption_footer {
+.under_constr{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    color: rgb(255, 3, 3);
+    letter-spacing: 0.1rem;
 }
+

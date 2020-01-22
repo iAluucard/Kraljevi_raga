@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  background-color: aliceblue;
+}
+
+body {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  background: url("../images/bg1.jpg") 50% 0;
+  background-size: cover;
+  font-family: 'Abril Fatface', cursive;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav {
+  font-weight: 900;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.navbar-nav li a {
+  color: aliceblue !important;
+  margin-right: 20px;
+}
+
+.navbar-nav li a:hover {
+  color: #638b49 !important;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.navbar-nav li {
+  color: aliceblue !important;
+  margin-right: 20px;
+}
+
+.fb-link {
+  margin-top: 10%;
+  height: 90vh;
+  width: 100%;
+  height: 100%;
+}
+
+.fb-link-left {
+  margin-top: 17%;
+  color: #e9e7e7;
+  letter-spacing: 0.2rem;
+}
+
+.fb-link-left h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: oblique;
+}
+
+.fb-link-left img {
+  opacity: 0.3;
+}
+
+.fb-link-left img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.marketing {
+  color: #e9e7e7;
+  margin-top: 11%;
+}
+
+.marketing .marketing-left {
+  letter-spacing: 0.2rem;
+}
+
+.marketing .marketing-left h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: oblique;
+}
+
+.marketing .marketing-right img {
+  margin: 5px;
+  width: 40%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.marketing .marketing-right img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-color: #5ee206;
+  border-style: solid;
+  border-width: 5px;
+  width: 55%;
+}
+
+#caption_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=sociala.css.map */

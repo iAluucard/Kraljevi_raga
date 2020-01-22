@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    background-color: aliceblue;
+}
+
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background: url("../images/bg1.jpg") 50% 0;
+    background-size: cover;
+    font-family: 'Abril Fatface', cursive;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+//-------------------------------------------------------------
+.navbar-nav {
+    font-weight: 900;
+    font-family: 'Abril Fatface', cursive;
+
+    li a {
+        color: aliceblue !important;
+        margin-right: 20px;
+    }
+
+    li a:hover {
+        color: rgb(99, 139, 73) !important;
+        transition: 500ms;
+    }
+
+    li {
+        color: aliceblue !important;
+        margin-right: 20px;
+    }
+
+}
+
+.fb-link{
+    margin-top: 10%;
+    height: 90vh;
+    width: 100%;
+    height: 100%;
+}
+
+.fb-link-left{
+    margin-top: 17%;
+    color: rgb(233, 231, 231);
+    letter-spacing: 0.2rem;
+
+    h1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-style: oblique;
+    }
+    img{
+        opacity: 0.3;
+    }
+    img:hover{
+        transform: rotate(360deg);
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+.marketing{
+    color: rgb(233, 231, 231);
+    margin-top: 11%;
+
+    .marketing-left{
+        letter-spacing: 0.2rem;
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: oblique;
+        }
+    }
+   .marketing-right{
+       img{
+           margin: 5px;
+           width: 40%;
+           filter: grayscale(1);
+           transition-duration: 1s;
+       }
+       
+       img:hover{
+        filter: grayscale(0);
+        transition: 1s;
+        border-color: rgb(94, 226, 6);
+        border-style: solid;
+        border-width: 5px;
+        width: 55%;
+    }
+   }
+}
+
+#caption_footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
